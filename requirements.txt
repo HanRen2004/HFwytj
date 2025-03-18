@@ -9,7 +9,6 @@ openai
 langchain-openai  
 flask
 flask_cors
-base64 
 threading 
 time  
 ultralytics  
