@@ -1,0 +1,20 @@
+streamlit
+requests
+uuid  # 注意：uuid是Python标准库的一部分，通常不需要单独安装
+dashscope
+langchain
+langchain-community  # 如果适用，请确认这个包是否正确
+langchain-core
+openai
+langchain-openai  # 确认此库是否正确
+flask
+CORS  # 假设您是从flask_cors导入CORS，因此这里应该是flask-cors
+base64  # 注意：base64是Python标准库的一部分，无需在此列出
+threading  # 这是Python标准库的一部分，无需列出
+time  # 同样是Python标准库的一部分，无需列出
+
+# 下面这些似乎是用于特定功能或集成，确保它们符合您的需求
+ultralytics  # 如果您确实需要使用YOLO模型
+
+# 注意：对于自定义模块如MongoDB_test，您需要确保这些模块在您的环境中可用，
+# 它们不会出现在requirements.txt中。
